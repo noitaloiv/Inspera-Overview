@@ -1,0 +1,20 @@
+{
+  "name": "Inspera CSV extension",
+  "version": "1.0",
+  "description": "Present statistics",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "favicon.png"
+  },
+  "manifest_version": 2
+}
